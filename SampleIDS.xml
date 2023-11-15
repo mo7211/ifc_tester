@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ids xmlns="http://standards.buildingsmart.org/IDS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/0.9.6/ids.xsd">
+    <info>
+        <title>My IDS</title>
+    </info>
+    <specifications>
+        <specification name="Specification for IfcWall" ifcVersion="IFC2X3 IFC4" minOccurs="0" maxOccurs="unbounded">
+            <applicability>
+                <entity>
+                    <name>
+                        <simpleValue>IFCWALL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <property datatype="IfcBoolean" uri="&lt;Insert proper URI here&gt;" minOccurs="1" maxOccurs="unbounded" instructions="&lt;Insert proper instruction here&gt;">
+                    <propertySet>
+                        <simpleValue>Pset_WallCommon</simpleValue>
+                    </propertySet>
+                    <name>
+                        <simpleValue>LoadBearing</simpleValue>
+                    </name>
+                    <value>
+                        <simpleValue>True</simpleValue>
+                    </value>
+                </property>
+            </requirements>
+        </specification>
+    </specifications>
+</ids>

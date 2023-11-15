@@ -1,0 +1,3 @@
+ifc_class;predefined_type;pset;property;datatype;value
+IfcWall;SOLIDWALL;Pset_WallCommon;LoadBearing;IfcBoolean;True
+IfcSlab;FLOOR;Pset_SlabCommon;LoadBearing;IfcBoolean;True
